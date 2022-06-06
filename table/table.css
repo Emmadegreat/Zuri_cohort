@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  /*page header*/
+  background: midnightblue;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  height: 60px;
+  line-height: 1.5;
+  justify-content: space-around;
+  width: 100%;
+}
+
+footer {
+  /*page footer*/
+  background: midnightblue;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  height: 74px;
+  line-height: 3;
+  font-size: 1.5rem;
+}
+
+main {
+  text-align: center;
+  align-items: center;
+  margin: 2rem 2rem 10rem 2rem;
+}
+table {
+  width: 100%;
+  background: dodgerblue;
+  align-items: center;
+  color: #fff;
+}
+
+table,
+th,
+td {
+  border: 1px solid #1d3044;
+  border-spacing: 5px;
+  padding: 5px;
+}
+
+.row1,
+.row2 {
+  font-size: 1.4rem;
+}
+
+thead {
+  /*table head*/
+  background: coral;
+}
+
+tbody {
+  /*table body*/
+  font-size: 1.3rem;
+  background: #1d3044;
+}
+
+tfoot {
+  /*table footer*/
+  background: darkslategray;
+  height: 50px;
+  width: 100%;
+  font-size: 1.3rem;
+}
+
+.row2 th {
+  width: 60px;
+  background: midnightblue;
+}
+.total1 {
+  width: 120px;
+}
+
+#sn {
+  width: 20px;
+}
+
+#students {
+  width: 40px;
+}
+
+.name {
+  background: rebeccapurple;
+}
+
+#subjects {
+  background: darkgreen;
+}
