@@ -1,0 +1,116 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+header{
+    background: #1d3044;
+    height: 60px;
+}
+body{
+    background: rgb(214, 218, 219);
+}
+main{
+    border: 1px solid red;
+    width: 60%;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*.top{
+    background: darkblue;
+    padding: 2rem;
+    width: 100%;
+    
+}*/
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+.sedans{
+    background:  hsl(31, 77%, 52%);
+    padding: 3.5rem;
+    width: 100%;
+    align-items: center;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+h1{
+    padding-bottom: 1.5rem;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 3rem;
+}
+p{
+    font-size: 1.1rem;
+    margin-bottom: 6rem;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.sedans button{
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-radius: 2.5rem;
+    width: 11rem;
+    border: 0.2rem solid #fff;
+    background: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.sedans button:hover{
+    cursor: pointer;
+    color: hsl(31, 77%, 52%);
+    background: hsla(0, 0%, 100%, 0.75);
+}
+
+.suv{
+    background: hsl(184, 100%, 22%);
+    padding: 3.5rem;
+    width: 100%;
+}
+.suv button{
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-radius: 2.5rem;
+    width: 11rem;
+    border: 3px solid #fff;
+    background: hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.suv button:hover{
+    cursor: pointer;
+    color: hsl(184, 100%, 22%);
+    background: hsla(0, 0%, 100%, 0.75);
+}
+
+
+.luxury{
+    background: hsl(179, 100%, 13%);
+    padding: 3.5rem;
+    width: 100%;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.luxury button{
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-radius: 2.5rem;
+    width: 11rem;
+    border: 3px solid #fff;
+    background: hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.luxury button:hover{
+    cursor: pointer;
+    color: hsl(179, 100%, 13%);
+    background: hsla(0, 0%, 100%, 0.75);
+}
+
+img{
+    margin-bottom: 2rem;
+}
