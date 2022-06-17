@@ -131,18 +131,6 @@ span a{
     text-decoration: none;
 }
 
-.input-container[data-error] .input {
-    border-color: #e82129;
-    color: #e82921;
-    background: #fff;
-}
-.input-container[data-error]::after{
-    content :attr(data-error);
-    font-size: 0.7rem;
-    color: #e82129;
-    display: block;
-    margin: 0.5rem 0rem;
-}
 
 /*--------------------Media query---------------------*/
 @media screen and (max-width:1389px) and (min-width:900px){
